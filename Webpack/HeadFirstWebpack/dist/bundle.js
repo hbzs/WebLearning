@@ -97,8 +97,8 @@ var update = __webpack_require__(4)(content, options);
 if(content.locals) module.exports = content.locals;
 
 if(false) {
-	module.hot.accept("!!./node_modules/css-loader/index.js??ref--0-1!./main.css", function() {
-		var newContent = require("!!./node_modules/css-loader/index.js??ref--0-1!./main.css");
+	module.hot.accept("!!./node_modules/css-loader/index.js?minimize!./main.css", function() {
+		var newContent = require("!!./node_modules/css-loader/index.js?minimize!./main.css");
 
 		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
